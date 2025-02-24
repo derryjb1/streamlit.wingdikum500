@@ -158,7 +158,7 @@ elif menu == "Tambah Gangri":
 
 elif menu == "Informasi":
     st.header("Informasi dan Bantuan  ",divider = True)
-    1image_url = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVXMlvwvKRpGjw9CC9VpdxQCMfA-gBlZAbiQ&s"
+    1image_url = "https://github.com/derryjb1/streamlit.wingdikum500/blob/main/derry.jpg?raw=true"
     response =requests.get(image_url1)
     image1 = Image.open(BytesIO(response.content))
     st.sidebar.image(image1)
