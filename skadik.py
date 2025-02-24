@@ -47,6 +47,7 @@ def search_data(query):
 def delete_data(nrp):
     c.execute('DELETE FROM siswa WHERE nrp = ?', (nrp,))
     conn.commit()
+def main():link = "https://drive.google.com/drive/folders/1PKtOMKqF6_hTsBJDXEO-7ms2U-N8IJpU"
 
 
 
@@ -68,8 +69,7 @@ with st.sidebar.title("Menu"):
 
     if st.sidebar.button("Buka Folder Materi pelajaran"):
     
-         import webbrowser
-         webbrowser.open("https://drive.google.com/drive/folders/1PKtOMKqF6_hTsBJDXEO-7ms2U-N8IJpU")
+        st.markdown(f"[Buka Folder Materi pelajaran]({link})",unsafe_allow_html=True)
 
                  
      
