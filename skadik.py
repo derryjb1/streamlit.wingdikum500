@@ -158,9 +158,9 @@ elif menu == "Tambah Gangri":
 
 elif menu == "Informasi":
     st.header("Informasi dan Bantuan  ",divider = True)
-    1image_url = "https://github.com/derryjb1/streamlit.wingdikum500/blob/main/derry.jpg?raw=true"
-    response =requests.get(image_url1)
-    image1 = Image.open(BytesIO(response.content))
+    image_url1 = "https://github.com/derryjb1/streamlit.wingdikum500/blob/main/derry.jpg?raw=true"
+    responses =requests.get(image_url1)
+    image1 = Image.open(BytesIO(responses.content))
     st.sidebar.image(image1)
  
     st.subheader("Nama : Mayor Kes Derry JB",
