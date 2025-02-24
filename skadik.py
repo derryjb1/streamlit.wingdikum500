@@ -67,7 +67,7 @@ with st.sidebar.title("Menu"):
     menu =st.sidebar.selectbox("Pilih menu", ["Data Siswa", "Data Gangri", "Tambah Siswa", "Tambah Gangri","Informasi"])
      
 
-    if st.sidebar.button("Buka Folder Materi pelajaran"):
+    if st.sidebar.button("Buka Link Folder Materi pelajaran"):
         link = "https://drive.google.com/drive/folders/1PKtOMKqF6_hTsBJDXEO-7ms2U-N8IJpU"
         st.sidebar.markdown(link)
 
