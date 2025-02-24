@@ -161,7 +161,7 @@ elif menu == "Informasi":
     image_url1 = "https://github.com/derryjb1/streamlit.wingdikum500/blob/main/derry.jpg?raw=true"
     responses =requests.get(image_url1)
     image1 = Image.open(BytesIO(responses.content))
-    st.sidebar.image(image1)
+    st.image(image1)
  
     st.subheader("Nama : Mayor Kes Derry JB",
 divider = True)
