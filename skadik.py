@@ -55,7 +55,7 @@ st.title("Aplikasi Wingdikum 500", anchor ="#")
 with st.sidebar.title("Menu"):
     
     st.header("WING PENDIDIKAN  500 UMUM ", divider = True)
-    image=Image.open("skadik504.JPG")
+    image=Image.open("https://github.com/derryjb1/streamlit.wingdikum500/blob/main/skadik504.jpg")
     st.sidebar.image(image)
     
 
