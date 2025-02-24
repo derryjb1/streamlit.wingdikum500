@@ -1,6 +1,7 @@
 import streamlit as st
 import sqlite3
 import pandas as pd
+from PIL import image
 
 # Koneksi ke database
 conn = sqlite3.connect('sekolah.db')
@@ -54,7 +55,8 @@ st.title("Aplikasi Wingdikum 500", anchor ="#")
 with st.sidebar.title("Menu"):
     
     st.header("WING PENDIDIKAN  500 UMUM ", divider = True)
-    st.sidebar.image("streamlit.wingdikum500/skadik504.JPG")
+    image=image.open("main/skadik504.JPG")
+    st.sidebar.image(image)
     
 
     menu =st.sidebar.selectbox("Pilih menu", ["Data Siswa", "Data Gangri", "Tambah Siswa", "Tambah Gangri","Informasi"])
