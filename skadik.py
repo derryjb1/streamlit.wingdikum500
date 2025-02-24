@@ -54,7 +54,7 @@ st.title("Aplikasi Wingdikum 500", anchor ="#")
 with st.sidebar.title("Menu"):
     
     st.header("WING PENDIDIKAN  500 UMUM ", divider = True)
-    st.sidebar.image("skadik504.JPG")
+    st.sidebar.image("main/skadik504.JPG")
     
 
     menu =st.sidebar.selectbox("Pilih menu", ["Data Siswa", "Data Gangri", "Tambah Siswa", "Tambah Gangri","Informasi"])
@@ -152,7 +152,7 @@ elif menu == "Tambah Gangri":
 
 elif menu == "Informasi":
     st.header("Informasi dan Bantuan  ",divider = True)
-    st.image("derry.JPG")
+    st.image("main/derry.JPG")
     st.subheader("Nama : Mayor Kes Derry JB",
 divider = True)
     st.write("""
