@@ -68,8 +68,8 @@ with st.sidebar.title("Menu"):
      
 
     if st.sidebar.button("Buka Folder Materi pelajaran"):
-         "https://drive.google.com/drive/folders/1PKtOMKqF6_hTsBJDXEO-7ms2U-N8IJpU"
-        
+        link = "https://drive.google.com/drive/folders/1PKtOMKqF6_hTsBJDXEO-7ms2U-N8IJpU"
+        st.sidebar.markdown(link)
 
                  
      
