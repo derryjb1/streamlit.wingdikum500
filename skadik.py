@@ -57,7 +57,7 @@ st.title("Aplikasi Wingdikum 500", anchor ="#")
 # Menu navigasi
 with st.sidebar.title("Menu"):
     
-    st.header("WING PENDIDIKAN  500 UMUM ", divider = True)
+    st.header("APLIKASI DATA SISWA WING PENDIDIKAN  500 UMUM ", divider = True)
     image_url = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVXMlvwvKRpGjw9CC9VpdxQCMfA-gBlZAbiQ&s"
     response =requests.get(image_url)
     image = Image.open(BytesIO(response.content))
